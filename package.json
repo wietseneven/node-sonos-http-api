@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node server.js",
     "start": "forever start server.js",
-    "lint": "eslint lib"
+    "lint": "eslint lib",
+    "fix": "yarn run lint --fix"
   },
   "author": "Jimmy Shimizu <jimmy@shimizu.se>",
   "repository": {
