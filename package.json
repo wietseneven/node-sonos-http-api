@@ -3,7 +3,8 @@
   "version": "1.6.9",
   "description": "A simple node app for controlling a Sonos system with basic HTTP requests",
   "scripts": {
-    "start": "node server.js",
+    "dev": "node server.js",
+    "start": "forever start server.js",
     "lint": "eslint lib"
   },
   "author": "Jimmy Shimizu <jimmy@shimizu.se>",
@@ -15,6 +16,8 @@
     "anesidora": "^1.2.0",
     "aws-sdk": "^2.12.0",
     "basic-auth": "~1.1.0",
+    "forever": "^2.0.0",
+    "forever-monitor": "^2.0.0",
     "fuse.js": "^2.5.0",
     "html-entities": "^1.2.1",
     "json5": "^0.5.1",
