@@ -1,0 +1,20 @@
+{
+  "players": [
+    {
+      "roomName": "Sonos",
+      "volume": 60
+    },
+    {
+      "roomName": "Lounge",
+      "volume": 25
+    },
+    {
+      "roomName": "Lounge 2",
+      "volume": 40
+    }
+  ],
+  "playMode": {
+    "repeat": "all"
+  },
+  "pauseOthers": true
+}
