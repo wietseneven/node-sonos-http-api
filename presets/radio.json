@@ -1,11 +1,23 @@
 {
   "players": [
-    { "roomName": "Sonos", "volume": 25},
-    {"roomName": "Lounge", "volume": 25},
-    {"roomName": "Lounge 2", "volume": 25},
-    {"roomName": "One", "volume": 25}
+    {
+      "roomName": "Sonos",
+      "volume": 60
+    },
+    {
+      "roomName": "Lounge",
+      "volume": 25
+    },
+    {
+      "roomName": "Lounge 2",
+      "volume": 40
+    },
+    {
+      "roomName": "One",
+      "volume": 40
+    }
   ],
   "state": "PLAYING",
   "favorite": "Wietse Neven's Station",
-  "pauseOthers": true,
+  "pauseOthers": true
 }

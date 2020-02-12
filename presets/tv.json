@@ -16,5 +16,6 @@
   "playMode": {
     "repeat": "all"
   },
-  "pauseOthers": true
+  "pauseOthers": true,
+  "favorite": "Thuisbioscoop: Sonos"
 }
